@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FC6D32BC9E8055FAF19D9A0 /* Pods_MoreSensorsExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE537BEC0E26DE29930D2A0 /* Pods_MoreSensorsExample.framework */; };
+		D40BA11B1D4EFE1200052BBD /* MicrophoneVolumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40BA11A1D4EFE1200052BBD /* MicrophoneVolumeViewController.swift */; };
+		D40BA1211D4F041500052BBD /* LARSBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D40BA1201D4F041500052BBD /* LARSBar.m */; };
+		D40BA1231D4F2FD600052BBD /* ScreenOnOffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40BA1221D4F2FD600052BBD /* ScreenOnOffViewController.swift */; };
+		D4645C0C1D47091A00291088 /* HeadphonePluggingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4645C0B1D47091A00291088 /* HeadphonePluggingViewController.swift */; };
+		D4645C0E1D471D9500291088 /* MusicPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4645C0D1D471D9500291088 /* MusicPlayingViewController.swift */; };
+		D48801DA1D508B210003AC47 /* mute.caf in Resources */ = {isa = PBXBuildFile; fileRef = D48801D71D508B210003AC47 /* mute.caf */; };
+		D48801DB1D508B210003AC47 /* SharkfoodMuteSwitchDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = D48801D91D508B210003AC47 /* SharkfoodMuteSwitchDetector.m */; };
+		D48801DD1D508B5B0003AC47 /* SilentModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48801DC1D508B5B0003AC47 /* SilentModeViewController.swift */; };
+		D48801DF1D50908B0003AC47 /* BluetoothOnOffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48801DE1D50908B0003AC47 /* BluetoothOnOffViewController.swift */; };
+		D48801E11D50941B0003AC47 /* LocationOnOffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48801E01D50941B0003AC47 /* LocationOnOffViewController.swift */; };
+		D48B00BC1D41D38F0099D66F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48B00BB1D41D38F0099D66F /* AppDelegate.swift */; };
+		D48B00C11D41D38F0099D66F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D48B00BF1D41D38F0099D66F /* Main.storyboard */; };
+		D48B00C31D41D38F0099D66F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D48B00C21D41D38F0099D66F /* Assets.xcassets */; };
+		D48B00C61D41D38F0099D66F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D48B00C41D41D38F0099D66F /* LaunchScreen.storyboard */; };
+		D49374411D49AD82002FA23C /* RotationChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49374401D49AD82002FA23C /* RotationChangeViewController.swift */; };
+		D4B28B4C1D51C1810078FCC6 /* ScreenLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B28B4B1D51C1810078FCC6 /* ScreenLock.swift */; };
+		D4BBDC5F1D45B18500C2E915 /* PhoneCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BBDC5E1D45B18500C2E915 /* PhoneCallViewController.swift */; };
+		D4BBDC8E1D45F54200C2E915 /* HardwareButttonPressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BBDC8D1D45F54200C2E915 /* HardwareButttonPressViewController.swift */; };
+		D4D037DA1D48A95F00CF40D0 /* SensorsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D037D91D48A95F00CF40D0 /* SensorsTableViewController.swift */; };
+		D4D037DC1D48B62500CF40D0 /* Sensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D037DB1D48B62500CF40D0 /* Sensor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D4BBDC881D45BF1F00C2E915 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0278B3785E9C3EA07322BC08 /* Pods-MoreSensorsWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoreSensorsWatch.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoreSensorsWatch/Pods-MoreSensorsWatch.release.xcconfig"; sourceTree = "<group>"; };
+		02C937C77D9F9D16E7723877 /* Pods-MoreSensorsExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoreSensorsExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoreSensorsExample/Pods-MoreSensorsExample.debug.xcconfig"; sourceTree = "<group>"; };
+		1E433E7C957CD21E7E81A16D /* Pods-MoreSensorsWatch Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoreSensorsWatch Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoreSensorsWatch Extension/Pods-MoreSensorsWatch Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		923FCF68D4D0D016AC5FB59A /* Pods_MoreSensorsWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoreSensorsWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		981AA6835670ECBECE1DF2C4 /* Pods-MoreSensorsExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoreSensorsExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoreSensorsExample/Pods-MoreSensorsExample.release.xcconfig"; sourceTree = "<group>"; };
+		A7063F3BF70C54AE6005ADBB /* Pods-MoreSensorsWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoreSensorsWatch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoreSensorsWatch/Pods-MoreSensorsWatch.debug.xcconfig"; sourceTree = "<group>"; };
+		AA4004B1280AD7B159158D83 /* Pods_MoreSensorsWatch_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoreSensorsWatch_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE537BEC0E26DE29930D2A0 /* Pods_MoreSensorsExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoreSensorsExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40BA11A1D4EFE1200052BBD /* MicrophoneVolumeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicrophoneVolumeViewController.swift; sourceTree = "<group>"; };
+		D40BA11E1D4F041400052BBD /* MoreSensorsExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MoreSensorsExample-Bridging-Header.h"; sourceTree = "<group>"; };
+		D40BA11F1D4F041500052BBD /* LARSBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LARSBar.h; sourceTree = "<group>"; };
+		D40BA1201D4F041500052BBD /* LARSBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LARSBar.m; sourceTree = "<group>"; };
+		D40BA1221D4F2FD600052BBD /* ScreenOnOffViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenOnOffViewController.swift; sourceTree = "<group>"; };
+		D4645C0B1D47091A00291088 /* HeadphonePluggingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadphonePluggingViewController.swift; sourceTree = "<group>"; };
+		D4645C0D1D471D9500291088 /* MusicPlayingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicPlayingViewController.swift; sourceTree = "<group>"; };
+		D48801D71D508B210003AC47 /* mute.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = mute.caf; sourceTree = "<group>"; };
+		D48801D81D508B210003AC47 /* SharkfoodMuteSwitchDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharkfoodMuteSwitchDetector.h; sourceTree = "<group>"; };
+		D48801D91D508B210003AC47 /* SharkfoodMuteSwitchDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharkfoodMuteSwitchDetector.m; sourceTree = "<group>"; };
+		D48801DC1D508B5B0003AC47 /* SilentModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SilentModeViewController.swift; sourceTree = "<group>"; };
+		D48801DE1D50908B0003AC47 /* BluetoothOnOffViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothOnOffViewController.swift; sourceTree = "<group>"; };
+		D48801E01D50941B0003AC47 /* LocationOnOffViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationOnOffViewController.swift; sourceTree = "<group>"; };
+		D48B00B81D41D38F0099D66F /* MoreSensorsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoreSensorsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48B00BB1D41D38F0099D66F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D48B00C01D41D38F0099D66F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D48B00C21D41D38F0099D66F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D48B00C51D41D38F0099D66F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D48B00C71D41D38F0099D66F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D49374401D49AD82002FA23C /* RotationChangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotationChangeViewController.swift; sourceTree = "<group>"; };
+		D4B28B4B1D51C1810078FCC6 /* ScreenLock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenLock.swift; sourceTree = "<group>"; };
+		D4BBDC5E1D45B18500C2E915 /* PhoneCallViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneCallViewController.swift; sourceTree = "<group>"; };
+		D4BBDC8D1D45F54200C2E915 /* HardwareButttonPressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HardwareButttonPressViewController.swift; sourceTree = "<group>"; };
+		D4D037D91D48A95F00CF40D0 /* SensorsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorsTableViewController.swift; sourceTree = "<group>"; };
+		D4D037DB1D48B62500CF40D0 /* Sensor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sensor.swift; sourceTree = "<group>"; };
+		E61BA0E85E27F6D51FB59615 /* Pods-MoreSensorsWatch Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoreSensorsWatch Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoreSensorsWatch Extension/Pods-MoreSensorsWatch Extension.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D48B00B51D41D38F0099D66F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC6D32BC9E8055FAF19D9A0 /* Pods_MoreSensorsExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D40BA11C1D4F03E500052BBD /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				D48801D61D508AFF0003AC47 /* SharkfoodMuteSwitchDetector */,
+				D40BA11D1D4F03FD00052BBD /* LARSBar */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		D40BA11D1D4F03FD00052BBD /* LARSBar */ = {
+			isa = PBXGroup;
+			children = (
+				D40BA11F1D4F041500052BBD /* LARSBar.h */,
+				D40BA1201D4F041500052BBD /* LARSBar.m */,
+			);
+			name = LARSBar;
+			sourceTree = "<group>";
+		};
+		D48801D61D508AFF0003AC47 /* SharkfoodMuteSwitchDetector */ = {
+			isa = PBXGroup;
+			children = (
+				D48801D71D508B210003AC47 /* mute.caf */,
+				D48801D81D508B210003AC47 /* SharkfoodMuteSwitchDetector.h */,
+				D48801D91D508B210003AC47 /* SharkfoodMuteSwitchDetector.m */,
+			);
+			name = SharkfoodMuteSwitchDetector;
+			sourceTree = "<group>";
+		};
+		D48B00AF1D41D38F0099D66F = {
+			isa = PBXGroup;
+			children = (
+				D48B00BA1D41D38F0099D66F /* MoreSensorsExample */,
+				D48B00B91D41D38F0099D66F /* Products */,
+				D5D3662E72F3272908948318 /* Pods */,
+				DFA52A4AEC87B0FECB37183E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D48B00B91D41D38F0099D66F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D48B00B81D41D38F0099D66F /* MoreSensorsExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D48B00BA1D41D38F0099D66F /* MoreSensorsExample */ = {
+			isa = PBXGroup;
+			children = (
+				D48B00BB1D41D38F0099D66F /* AppDelegate.swift */,
+				D48B00BF1D41D38F0099D66F /* Main.storyboard */,
+				D4D037D91D48A95F00CF40D0 /* SensorsTableViewController.swift */,
+				D40BA11A1D4EFE1200052BBD /* MicrophoneVolumeViewController.swift */,
+				D40BA1221D4F2FD600052BBD /* ScreenOnOffViewController.swift */,
+				D4BBDC5E1D45B18500C2E915 /* PhoneCallViewController.swift */,
+				D49374401D49AD82002FA23C /* RotationChangeViewController.swift */,
+				D4645C0B1D47091A00291088 /* HeadphonePluggingViewController.swift */,
+				D4645C0D1D471D9500291088 /* MusicPlayingViewController.swift */,
+				D48801DC1D508B5B0003AC47 /* SilentModeViewController.swift */,
+				D48801DE1D50908B0003AC47 /* BluetoothOnOffViewController.swift */,
+				D48801E01D50941B0003AC47 /* LocationOnOffViewController.swift */,
+				D4BBDC8D1D45F54200C2E915 /* HardwareButttonPressViewController.swift */,
+				D4B28B4E1D51D2100078FCC6 /* Model */,
+				D40BA11C1D4F03E500052BBD /* Library */,
+				D4B28B4D1D51D1C70078FCC6 /* Supporting Files */,
+			);
+			path = MoreSensorsExample;
+			sourceTree = "<group>";
+		};
+		D4B28B4D1D51D1C70078FCC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D40BA11E1D4F041400052BBD /* MoreSensorsExample-Bridging-Header.h */,
+				D48B00C21D41D38F0099D66F /* Assets.xcassets */,
+				D48B00C41D41D38F0099D66F /* LaunchScreen.storyboard */,
+				D48B00C71D41D38F0099D66F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4B28B4E1D51D2100078FCC6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D4D037DB1D48B62500CF40D0 /* Sensor.swift */,
+				D4B28B4B1D51C1810078FCC6 /* ScreenLock.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D5D3662E72F3272908948318 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02C937C77D9F9D16E7723877 /* Pods-MoreSensorsExample.debug.xcconfig */,
+				981AA6835670ECBECE1DF2C4 /* Pods-MoreSensorsExample.release.xcconfig */,
+				A7063F3BF70C54AE6005ADBB /* Pods-MoreSensorsWatch.debug.xcconfig */,
+				0278B3785E9C3EA07322BC08 /* Pods-MoreSensorsWatch.release.xcconfig */,
+				1E433E7C957CD21E7E81A16D /* Pods-MoreSensorsWatch Extension.debug.xcconfig */,
+				E61BA0E85E27F6D51FB59615 /* Pods-MoreSensorsWatch Extension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DFA52A4AEC87B0FECB37183E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAE537BEC0E26DE29930D2A0 /* Pods_MoreSensorsExample.framework */,
+				923FCF68D4D0D016AC5FB59A /* Pods_MoreSensorsWatch.framework */,
+				AA4004B1280AD7B159158D83 /* Pods_MoreSensorsWatch_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D48B00B71D41D38F0099D66F /* MoreSensorsExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D48B00CA1D41D38F0099D66F /* Build configuration list for PBXNativeTarget "MoreSensorsExample" */;
+			buildPhases = (
+				9D094BABF89A4289BFF88E72 /* 📦 Check Pods Manifest.lock */,
+				D48B00B41D41D38F0099D66F /* Sources */,
+				D48B00B51D41D38F0099D66F /* Frameworks */,
+				D48B00B61D41D38F0099D66F /* Resources */,
+				D4BBDC881D45BF1F00C2E915 /* Embed Watch Content */,
+				D3743E285FFEF4FA6139CEAA /* 📦 Embed Pods Frameworks */,
+				71FD815BE33634C1F1C46EF8 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoreSensorsExample;
+			productName = MoreSensorsExample;
+			productReference = D48B00B81D41D38F0099D66F /* MoreSensorsExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D48B00B01D41D38F0099D66F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Phu Nguyen";
+				TargetAttributes = {
+					D48B00B71D41D38F0099D66F = {
+						CreatedOnToolsVersion = 7.3.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = D48B00B31D41D38F0099D66F /* Build configuration list for PBXProject "MoreSensorsExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D48B00AF1D41D38F0099D66F;
+			productRefGroup = D48B00B91D41D38F0099D66F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D48B00B71D41D38F0099D66F /* MoreSensorsExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D48B00B61D41D38F0099D66F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48B00C61D41D38F0099D66F /* LaunchScreen.storyboard in Resources */,
+				D48B00C31D41D38F0099D66F /* Assets.xcassets in Resources */,
+				D48B00C11D41D38F0099D66F /* Main.storyboard in Resources */,
+				D48801DA1D508B210003AC47 /* mute.caf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71FD815BE33634C1F1C46EF8 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoreSensorsExample/Pods-MoreSensorsExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D094BABF89A4289BFF88E72 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D3743E285FFEF4FA6139CEAA /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoreSensorsExample/Pods-MoreSensorsExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D48B00B41D41D38F0099D66F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4BBDC8E1D45F54200C2E915 /* HardwareButttonPressViewController.swift in Sources */,
+				D48801E11D50941B0003AC47 /* LocationOnOffViewController.swift in Sources */,
+				D4645C0C1D47091A00291088 /* HeadphonePluggingViewController.swift in Sources */,
+				D48B00BC1D41D38F0099D66F /* AppDelegate.swift in Sources */,
+				D4B28B4C1D51C1810078FCC6 /* ScreenLock.swift in Sources */,
+				D4D037DC1D48B62500CF40D0 /* Sensor.swift in Sources */,
+				D48801DF1D50908B0003AC47 /* BluetoothOnOffViewController.swift in Sources */,
+				D4645C0E1D471D9500291088 /* MusicPlayingViewController.swift in Sources */,
+				D49374411D49AD82002FA23C /* RotationChangeViewController.swift in Sources */,
+				D40BA1211D4F041500052BBD /* LARSBar.m in Sources */,
+				D4BBDC5F1D45B18500C2E915 /* PhoneCallViewController.swift in Sources */,
+				D40BA11B1D4EFE1200052BBD /* MicrophoneVolumeViewController.swift in Sources */,
+				D4D037DA1D48A95F00CF40D0 /* SensorsTableViewController.swift in Sources */,
+				D48801DD1D508B5B0003AC47 /* SilentModeViewController.swift in Sources */,
+				D48801DB1D508B210003AC47 /* SharkfoodMuteSwitchDetector.m in Sources */,
+				D40BA1231D4F2FD600052BBD /* ScreenOnOffViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D48B00BF1D41D38F0099D66F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D48B00C01D41D38F0099D66F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D48B00C41D41D38F0099D66F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D48B00C51D41D38F0099D66F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D48B00C81D41D38F0099D66F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D48B00C91D41D38F0099D66F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D48B00CB1D41D38F0099D66F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02C937C77D9F9D16E7723877 /* Pods-MoreSensorsExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = MoreSensorsExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phunguyen.MoreSensorsExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MoreSensorsExample/MoreSensorsExample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D48B00CC1D41D38F0099D66F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 981AA6835670ECBECE1DF2C4 /* Pods-MoreSensorsExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = MoreSensorsExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phunguyen.MoreSensorsExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MoreSensorsExample/MoreSensorsExample-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D48B00B31D41D38F0099D66F /* Build configuration list for PBXProject "MoreSensorsExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48B00C81D41D38F0099D66F /* Debug */,
+				D48B00C91D41D38F0099D66F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D48B00CA1D41D38F0099D66F /* Build configuration list for PBXNativeTarget "MoreSensorsExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48B00CB1D41D38F0099D66F /* Debug */,
+				D48B00CC1D41D38F0099D66F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D48B00B01D41D38F0099D66F /* Project object */;
+}

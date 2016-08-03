@@ -1,0 +1,26 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MoreSensorsExample' do
+  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MoreSensorsExample
+  pod 'PermissionScope', '1.0.2'
+end
+
+target 'MoreSensorsWatch' do
+  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MoreSensorsWatch
+
+end
+
+target 'MoreSensorsWatch Extension' do
+  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MoreSensorsWatch Extension
+
+end
