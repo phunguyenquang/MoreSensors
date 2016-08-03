@@ -24,8 +24,8 @@
 		D48B00C61D41D38F0099D66F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D48B00C41D41D38F0099D66F /* LaunchScreen.storyboard */; };
 		D49374411D49AD82002FA23C /* RotationChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49374401D49AD82002FA23C /* RotationChangeViewController.swift */; };
 		D4B28B4C1D51C1810078FCC6 /* ScreenLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B28B4B1D51C1810078FCC6 /* ScreenLock.swift */; };
+		D4B28B501D51EB170078FCC6 /* VolumeChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B28B4F1D51EB170078FCC6 /* VolumeChangeViewController.swift */; };
 		D4BBDC5F1D45B18500C2E915 /* PhoneCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BBDC5E1D45B18500C2E915 /* PhoneCallViewController.swift */; };
-		D4BBDC8E1D45F54200C2E915 /* HardwareButttonPressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BBDC8D1D45F54200C2E915 /* HardwareButttonPressViewController.swift */; };
 		D4D037DA1D48A95F00CF40D0 /* SensorsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D037D91D48A95F00CF40D0 /* SensorsTableViewController.swift */; };
 		D4D037DC1D48B62500CF40D0 /* Sensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D037DB1D48B62500CF40D0 /* Sensor.swift */; };
 /* End PBXBuildFile section */
@@ -73,8 +73,8 @@
 		D48B00C71D41D38F0099D66F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D49374401D49AD82002FA23C /* RotationChangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotationChangeViewController.swift; sourceTree = "<group>"; };
 		D4B28B4B1D51C1810078FCC6 /* ScreenLock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenLock.swift; sourceTree = "<group>"; };
+		D4B28B4F1D51EB170078FCC6 /* VolumeChangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolumeChangeViewController.swift; sourceTree = "<group>"; };
 		D4BBDC5E1D45B18500C2E915 /* PhoneCallViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneCallViewController.swift; sourceTree = "<group>"; };
-		D4BBDC8D1D45F54200C2E915 /* HardwareButttonPressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HardwareButttonPressViewController.swift; sourceTree = "<group>"; };
 		D4D037D91D48A95F00CF40D0 /* SensorsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorsTableViewController.swift; sourceTree = "<group>"; };
 		D4D037DB1D48B62500CF40D0 /* Sensor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sensor.swift; sourceTree = "<group>"; };
 		E61BA0E85E27F6D51FB59615 /* Pods-MoreSensorsWatch Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoreSensorsWatch Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoreSensorsWatch Extension/Pods-MoreSensorsWatch Extension.release.xcconfig"; sourceTree = "<group>"; };
@@ -153,7 +153,7 @@
 				D48801DC1D508B5B0003AC47 /* SilentModeViewController.swift */,
 				D48801DE1D50908B0003AC47 /* BluetoothOnOffViewController.swift */,
 				D48801E01D50941B0003AC47 /* LocationOnOffViewController.swift */,
-				D4BBDC8D1D45F54200C2E915 /* HardwareButttonPressViewController.swift */,
+				D4B28B4F1D51EB170078FCC6 /* VolumeChangeViewController.swift */,
 				D4B28B4E1D51D2100078FCC6 /* Model */,
 				D40BA11C1D4F03E500052BBD /* Library */,
 				D4B28B4D1D51D1C70078FCC6 /* Supporting Files */,
@@ -333,7 +333,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4BBDC8E1D45F54200C2E915 /* HardwareButttonPressViewController.swift in Sources */,
 				D48801E11D50941B0003AC47 /* LocationOnOffViewController.swift in Sources */,
 				D4645C0C1D47091A00291088 /* HeadphonePluggingViewController.swift in Sources */,
 				D48B00BC1D41D38F0099D66F /* AppDelegate.swift in Sources */,
@@ -344,6 +343,7 @@
 				D49374411D49AD82002FA23C /* RotationChangeViewController.swift in Sources */,
 				D40BA1211D4F041500052BBD /* LARSBar.m in Sources */,
 				D4BBDC5F1D45B18500C2E915 /* PhoneCallViewController.swift in Sources */,
+				D4B28B501D51EB170078FCC6 /* VolumeChangeViewController.swift in Sources */,
 				D40BA11B1D4EFE1200052BBD /* MicrophoneVolumeViewController.swift in Sources */,
 				D4D037DA1D48A95F00CF40D0 /* SensorsTableViewController.swift in Sources */,
 				D48801DD1D508B5B0003AC47 /* SilentModeViewController.swift in Sources */,

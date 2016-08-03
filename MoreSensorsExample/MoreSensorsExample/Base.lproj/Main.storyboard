@@ -186,6 +186,7 @@
                         <segue destination="nCj-aJ-RBf" kind="show" identifier="SilentMode" id="e5d-9B-IUB"/>
                         <segue destination="7Z8-aI-gdN" kind="show" identifier="BluetoothOnOff" id="36d-xg-dNG"/>
                         <segue destination="zZh-Vw-KeQ" kind="show" identifier="LocationOnOff" id="4Zs-bI-bgI"/>
+                        <segue destination="NI3-cX-FKq" kind="show" identifier="VolumeChange" id="9HS-7U-s4d"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gne-4T-L2U" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -475,6 +476,47 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M7W-Yt-yzV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3197" y="2633"/>
+        </scene>
+        <!--Volume Change-->
+        <scene sceneID="Qnp-VP-6Gg">
+            <objects>
+                <viewController id="NI3-cX-FKq" customClass="VolumeChangeViewController" customModule="MoreSensorsExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0Mh-2n-3wn"/>
+                        <viewControllerLayoutGuide type="bottom" id="D40-Zg-tdB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bbc-HJ-6BR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="U8b-aG-4zt">
+                                <rect key="frame" x="26" y="285" width="548" height="31"/>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Volume level 🔊" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QsT-4q-1Xm">
+                                <rect key="frame" x="239" y="240" width="123" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="U8b-aG-4zt" firstAttribute="top" secondItem="QsT-4q-1Xm" secondAttribute="bottom" constant="24" id="6Fv-a4-JmQ"/>
+                            <constraint firstItem="QsT-4q-1Xm" firstAttribute="centerX" secondItem="U8b-aG-4zt" secondAttribute="centerX" id="Pfv-9X-rUt"/>
+                            <constraint firstItem="U8b-aG-4zt" firstAttribute="centerY" secondItem="bbc-HJ-6BR" secondAttribute="centerY" id="R9t-td-WJi"/>
+                            <constraint firstItem="U8b-aG-4zt" firstAttribute="leading" secondItem="bbc-HJ-6BR" secondAttribute="leadingMargin" constant="8" id="WDA-kC-2OW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="U8b-aG-4zt" secondAttribute="trailing" constant="8" id="b1S-cR-Pww"/>
+                            <constraint firstItem="U8b-aG-4zt" firstAttribute="centerX" secondItem="bbc-HJ-6BR" secondAttribute="centerX" id="ha4-qr-4tc"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Volume Change" id="HTp-Nv-EfK"/>
+                    <connections>
+                        <outlet property="volumeSlider" destination="U8b-aG-4zt" id="Wdc-iW-CX8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XEA-IH-CQg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3869" y="2633"/>
         </scene>
     </scenes>
 </document>

@@ -10,6 +10,8 @@ import UIKit
 import AVFoundation
 import PermissionScope
 
+// FIXME: crash when volume down to 0
+
 class MicrophoneVolumeViewController: UIViewController {
 
     @IBOutlet weak var sliderFrame: UIImageView!
@@ -92,6 +94,7 @@ class MicrophoneVolumeViewController: UIViewController {
     // MARK: - General
     
     private func configEqualizerSlider() {
+        equalizerSlider.userInteractionEnabled = false
         equalizerSlider.value = 1.0
         equalizerSlider.leftChannelLevel = 1.0
         equalizerSlider.rightChannelLevel = 1.0

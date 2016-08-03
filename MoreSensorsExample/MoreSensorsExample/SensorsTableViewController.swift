@@ -20,6 +20,7 @@ class SensorsTableViewController: UITableViewController {
         static let SILENT_MODE = 15
         static let BLUETOOTH = 17
         static let LOCATION_TRACKING = 18
+        static let VOLUME_CHANGE = 20
     }
     
     let sensors = [
@@ -42,7 +43,8 @@ class SensorsTableViewController: UITableViewController {
         Sensor(name: "do not disturb mode on / off", ableToDetect: false, description: "Detect if user turns on/off “Do not disturb” mode"),
         Sensor(name: "bluetooth on / off", ableToDetect: true, description: "Detect if user turns on/off bluetooth"),
         Sensor(name: "location tracking on / off", ableToDetect: true, description: "Detect if user turns on/off location tracking of the app"),
-        Sensor(name: "user is typing, soft keyboard is shown", ableToDetect: false, description: "Detect if user is typing, soft keyboard is shown")
+        Sensor(name: "user is typing, soft keyboard is shown", ableToDetect: false, description: "Detect if user is typing, soft keyboard is shown"),
+        Sensor(name: "volume change", ableToDetect: true, description: "Detect if volume is up/down")
     ]
     
     override func viewDidLoad() {
@@ -98,6 +100,7 @@ class SensorsTableViewController: UITableViewController {
             case AvailableSensorIndex.SILENT_MODE:              performSegueWithIdentifier("SilentMode", sender: nil)
             case AvailableSensorIndex.BLUETOOTH:                performSegueWithIdentifier("BluetoothOnOff", sender: nil)
             case AvailableSensorIndex.LOCATION_TRACKING:        performSegueWithIdentifier("LocationOnOff", sender: nil)
+            case AvailableSensorIndex.VOLUME_CHANGE:            performSegueWithIdentifier("VolumeChange", sender: nil)
             default: break
             
         }
